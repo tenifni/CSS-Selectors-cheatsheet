@@ -1,5 +1,5 @@
 # CSS Selectors cheat sheet
-from http://flukeout.github.io.
+notes from http://flukeout.github.io.
 
 
 
