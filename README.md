@@ -17,7 +17,7 @@ A  B -- Selects all B inside of A.
 </ul>
 
 ##Combine Class Selector
-We can combine the class selector with other selectors.
+Combine the class selector with other selectors.
 ```
 A.className
 ```
