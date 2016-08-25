@@ -103,7 +103,7 @@ ul li:last-child -- Selects the last <li> elements inside any <ul>
 ##Nth Child Pseudo-selector
 Select an element by its order in another element.
 ```CSS
-:nth-child(#)
+:nth-child(X)
 ```
 ```CSS
 div p:nth-child(2) -- Selects the 2nd <p> in any <div>
@@ -114,7 +114,7 @@ div p:nth-child(2) -- Selects the 2nd <p> in any <div>
 Select an element by its order in another element, counting from the back.
 
 ```CSS
-:nth-last-child(#)
+:nth-last-child(X)
 ```
 
 
@@ -130,7 +130,7 @@ span:first-of-type -- Selects the first <span> in any element.
 ##Nth of Type
 Selects a specific element based on its type and order in another element - or even or odd instances of that element.
 ```
-:nth-of-type(#)
+:nth-of-type(X)
 ```
 ```CSS
 .example:nth-of-type(odd) -- Selects all odd instances of a the "example" class.
@@ -167,7 +167,7 @@ Select the last element of a specific type.
 p span:last-of-type -- Selects the last <span> in every <p>
 ```
 
-##Empty Selector
+##Empty 
 Select elements that don't have any children.
 ```
 :empty
